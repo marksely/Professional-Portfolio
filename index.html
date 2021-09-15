@@ -1,17 +1,66 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Professional Portfolio</title>
     <link rel="stylesheet" href="./style.css">
+    <title>Professional Portfolio</title>
 </head>
-
 <body>
-    <header>
-        <h1>Mark Selyuzhitskiy</h1>
-        
-    </header>
+    <main>
+        <header class="header">
+            <h1>Mark Selyuzhitskiy</h1>
+            <ul>
+                <li> <a href="#about-me">About Me</a> </li>
+                <li> <a href="#work">Work</a> </li>
+                <li> <a href="#contact-me">Contact Me</a> </li>
+                <li> <a href="#">Resume</a> </li>
+            </ul>
+        </header>
+
+        <section class="hero">
+            <p>Just a guy with a laptop and a internet connection:)</p>
+        </section>
+
+        <section id="about-me" class="aboutme">
+           <h2>About Me</h2>
+           <div class="aboutmetext">
+               <p>Hi there! My name is Mark and I am currently in a Georgia Tech Coding Bootcamp learning to become a Full-Stack Engineer! I was born in Maryland after my parents moved here from Belarus, and after that they moved around the East Coast till we landed in Georiga. I am looking forward to learning many languages!</p>
+           </div>
+        </section>
+
+        <section id="work" class="grid">
+           <h2 class="workh2">Work</h2>
+           <div class="grid-container">
+            <div class="item1 grid">
+                <p class="item-p">MERN <br> Full Stack</p>
+            </div>
+            <div class="item2 grid">
+                <p class="item-p">LED Wall <br> Node </p>
+            </div>
+            <div class="item3 grid">
+                <p class="item-p">Calculator <br> JS/CSS </p>
+            </div>
+            <div class="item4 grid">
+                <p class="item-p">App <br> HTML </p>
+            </div>
+            <div class="item5 grid">
+                <p class="item-p">Web <br> React </p>
+            </div>
+           </div>
+        </section>
+
+        <footer id="contact-me" class="footer">
+            <h2>Contact Me</h2>
+            <ul>
+                <li>###-###-###</li>
+                <li>email</li>
+                <li>github</li>
+                <li>twitter</li>
+                <li>spotify</li>
+            </ul>
+        </footer>
+    </main>    
 </body>
-  
 </html>

@@ -1,0 +1,135 @@
+main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+    
+header, section, footer {
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #000000;
+    color: black;
+}
+
+.header {
+    background: darkgray;
+    flex-direction: row;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul li {
+    color:rgb(108, 205, 238);
+    margin: 0 10px 0 10px;
+    text-decoration: underline rgb(108, 205, 238);
+    font-size: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    color:rgb(108, 205, 238);
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    text-decoration: underline rgb(108, 205, 238);
+    font-size: 30px;
+    margin: 0 20px 0px 20px;
+    justify-content: space-between;
+}
+
+.footer {
+    border: 1px solid #000000;
+    background: white;
+    display:flex;
+    justify-content: center;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutmetext {
+    width: 60%;
+    padding-left: 10px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30vh 18vh 18vh;
+    grid-gap: 10px;
+    width: 50%;
+    grid-template-areas: 
+    "a a"
+    "b c"
+    "d e";
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+}
+
+.item1 {
+    grid-area: a;
+    border: solid rgb(108, 205, 238) 5px;
+    font-size: 30px;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.item2 {
+    grid-area: b;
+    border: solid rgb(108, 205, 238) 5px;
+    font-size: 20px;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.item3 {
+    grid-area: c;
+    border: solid rgb(108, 205, 238) 5px;
+    font-size: 20px;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.item4 {
+    grid-area: d;
+    border: solid rgb(108, 205, 238) 5px;
+    font-size: 20px;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.item5 {
+    grid-area: e;
+    border: solid rgb(108, 205, 238) 5px;
+    font-size: 20px;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.item-p {
+    background-color: rgb(108, 205, 238);
+    padding: 10px;
+}
+
+.workh2 {
+    margin-right: 20px;
+}
+
+.hero {
+    display:flex;
+    justify-content: flex-end;
+    font-size: 30px;
+}
