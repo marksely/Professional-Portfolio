@@ -13,7 +13,7 @@ header, section, footer {
 }
 
 .header {
-    background: darkgray;
+    background: rgb(97, 96, 96);
     flex-direction: row;
 }
 
@@ -27,7 +27,11 @@ header ul li {
     color:rgb(108, 205, 238);
     margin: 0 10px 0 10px;
     text-decoration: underline rgb(108, 205, 238);
-    font-size: 20px;
+    font-size: 30px;
+}
+
+a:visited {
+    color:rgb(108, 205, 238);
 }
 
 footer ul {
@@ -85,6 +89,9 @@ footer ul li {
     font-size: 30px;
     justify-content: start;
     align-items: flex-end;
+    background: url("file:///Users/marksel/Desktop/Professional-Portfolio/Screen%20Shot%202021-09-15%20at%203.59.54%20PM.png");
+    background-size: 900px 500px;
+    background-repeat: no-repeat;
 }
 
 .item2 {
@@ -93,6 +100,9 @@ footer ul li {
     font-size: 20px;
     justify-content: start;
     align-items: flex-end;
+    background: url("https://i.stack.imgur.com/y9DpT.jpg");
+    background-size: 500px 200px;
+    background-repeat: no-repeat;
 }
 
 .item3 {
@@ -101,6 +111,9 @@ footer ul li {
     font-size: 20px;
     justify-content: start;
     align-items: flex-end;
+    background: url("https://i.stack.imgur.com/y9DpT.jpg");
+    background-size: 500px 200px;
+    background-repeat: no-repeat;
 }
 
 .item4 {
@@ -109,6 +122,9 @@ footer ul li {
     font-size: 20px;
     justify-content: start;
     align-items: flex-end;
+    background: url("https://i.stack.imgur.com/y9DpT.jpg");
+    background-size: 500px 200px;
+    background-repeat: no-repeat;
 }
 
 .item5 {
@@ -117,6 +133,9 @@ footer ul li {
     font-size: 20px;
     justify-content: start;
     align-items: flex-end;
+    background: url("https://i.stack.imgur.com/y9DpT.jpg");
+    background-size: 500px 200px;
+    background-repeat: no-repeat;
 }
 
 .item-p {
@@ -132,4 +151,15 @@ footer ul li {
     display:flex;
     justify-content: flex-end;
     font-size: 30px;
+    background: url(./wooden-planks-background-horizontal-pattern-893271.jpg);
+    background-size: 1800px
+}
+
+.hero-p {
+    background-color: rgb(108, 205, 238);
+    padding:15px;
+}
+
+.item1:hover::shadow {
+    color: rgb(216, 216, 155);
 }
