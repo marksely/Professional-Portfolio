@@ -8,8 +8,11 @@ main {
 header, section, footer {
     margin: 0;
     padding: 20px;
-    border: 1px solid #000000;
     color: black;
+}
+
+header h1 {
+   color: rgb(108, 205, 238);
 }
 
 .header {
@@ -49,7 +52,6 @@ footer ul li {
 }
 
 .footer {
-    border: 1px solid #000000;
     background: white;
     display:flex;
     justify-content: center;
