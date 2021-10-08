@@ -1,22 +1,46 @@
-# Professional-Portfolio
-02 Advanced CSS: Portfolio
+# Professional Portfolio
 
-This project consisted of building a professional  portfolio from scratch for employers to be able to look at potential employess to see their work for consideration of possible employment.
+  ## Description
 
-## Acceptance criteria
+  This app is a professional portfolio that has links to projects, github repo, and to my linkedIn page.
 
-In order for the project to be considered finished, certain criteria had to be met. The criteria included: 
+  ## Table of Contents
 
-* the application had to contain the employees name, an about me, and an image, and links in the nav that link to areas on the page 
-* when clicking on a link in the nav, the UI is suppossed to scroll down to that section
-* the first application in work section is supposed to be bigger than the others
-* when clicking on one of the application images it should take the user to a deployed link of the application
-* when resizing the page the layout is responsive and adapts to different viewports
+  * [Installation](#installation)
 
+  * [Usage](#usage)
 
-## Image of finished application
+  * [License](#license)
 
-<img src="file:///Users/marksel/Desktop/Professional-Portfolio/Screen%20Shot%202021-09-15%20at%206.05.36%20PM.png"/>
+  * [Contributing](#contributing)
 
-## Link to final application
-https://marksely.github.io/Professional-Portfolio/
+  * [Tests](#tests)
+
+  * [Questions](#questions)
+
+  ## Installations 
+
+  No independencies to install
+
+  ## Usage
+
+  This app is to be used to view my projects, resume, contact info, and github repo. This app is mainly to be used by employers.
+
+  ## License 
+
+  NONE
+
+  ## Contributing Guidelines 
+
+  DO NOT CONTRIBUTE TO THIS REPO
+
+  ## Tests
+
+  No need to run tests for this app.
+
+  ## Questions 
+
+  For more information about me checkout my github at https://github.com/marksely. For any questions regarding this repository 
+
+  or how to use this generator please email me at mark.sel9@gmail.com.
+
