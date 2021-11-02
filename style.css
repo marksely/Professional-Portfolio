@@ -1,167 +1,168 @@
 main {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
-    
-header, section, footer {
-    margin: 0;
-    padding: 20px;
-    color: black;
+
+header,
+section,
+footer {
+  margin: 0;
+  padding: 20px;
+  color: black;
 }
 
 header h1 {
-   color: rgb(108, 205, 238);
+  color: rgb(108, 205, 238);
 }
 
 .header {
-    background: rgb(97, 96, 96);
-    flex-direction: row;
+  background: rgb(97, 96, 96);
+  flex-direction: row;
 }
 
 header ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
 }
 
 header ul li {
-    color:rgb(108, 205, 238);
-    margin: 0 10px 0 10px;
-    text-decoration: underline rgb(108, 205, 238);
-    font-size: 30px;
+  color: rgb(108, 205, 238);
+  margin: 0 10px 0 10px;
+  text-decoration: underline rgb(108, 205, 238);
+  font-size: 30px;
 }
 
 a:visited {
-    color:rgb(108, 205, 238);
+  color: rgb(108, 205, 238);
 }
 
 footer ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 footer ul li {
-    color:rgb(108, 205, 238);
-    display: inline-block;
-    margin: 0 10px 0 10px;
-    text-decoration: underline rgb(108, 205, 238);
-    font-size: 30px;
-    margin: 0 20px 0px 20px;
-    justify-content: space-between;
+  color: rgb(108, 205, 238);
+  display: inline-block;
+  margin: 0 10px 0 10px;
+  text-decoration: underline rgb(108, 205, 238);
+  font-size: 30px;
+  margin: 0 20px 0px 20px;
+  justify-content: space-between;
 }
 
 .footer {
-    background: white;
-    display:flex;
-    justify-content: center;
+  background: white;
+  display: flex;
+  justify-content: center;
 }
 
 .aboutme {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .aboutmetext {
-    width: 60%;
-    padding-left: 10px;
+  width: 60%;
+  padding-left: 10px;
 }
 
-
 .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30vh 18vh 18vh;
-    grid-gap: 10px;
-    width: 50%;
-    grid-template-areas: 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 30vh 18vh 18vh;
+  grid-gap: 10px;
+  width: 50%;
+  grid-template-areas:
     "a a"
     "b c"
     "d e";
 }
 
 .grid {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .item1 {
-    grid-area: a;
-    border: solid rgb(108, 205, 238) 5px;
-    font-size: 30px;
-    justify-content: start;
-    align-items: flex-end;
-    background: url(./images/Screen\ Shot\ 2021-10-04\ at\ 11.03.35\ PM.png);
-    background-size: 900px 500px;
-    background-repeat: no-repeat;
+  grid-area: a;
+  border: solid rgb(108, 205, 238) 5px;
+  font-size: 30px;
+  justify-content: start;
+  align-items: flex-end;
+  background: url(./images/Screen\ Shot\ 2021-10-04\ at\ 11.03.35\ PM.png);
+  background-size: 900px 500px;
+  background-repeat: no-repeat;
 }
 
 .item2 {
-    grid-area: b;
-    border: solid rgb(108, 205, 238) 5px;
-    font-size: 20px;
-    justify-content: start;
-    align-items: flex-end;
-    background: url("./images/Screen\ Shot\ 2021-10-04\ at\ 11.17.14\ PM.png");
-    background-size: 500px 200px;
-    background-repeat: no-repeat;
+  grid-area: b;
+  border: solid rgb(108, 205, 238) 5px;
+  font-size: 20px;
+  justify-content: start;
+  align-items: flex-end;
+  background: url("./images/Screen\ Shot\ 2021-10-04\ at\ 11.17.14\ PM.png");
+  background-size: 500px 200px;
+  background-repeat: no-repeat;
 }
 
 .item3 {
-    grid-area: c;
-    border: solid rgb(108, 205, 238) 5px;
-    font-size: 20px;
-    justify-content: start;
-    align-items: flex-end;
-    background: url("./Screen\ Shot\ 2021-10-05\ at\ 4.59.00\ PM.png");
-    background-size: 500px 200px;
-    background-repeat: no-repeat;
+  grid-area: c;
+  border: solid rgb(108, 205, 238) 5px;
+  font-size: 20px;
+  justify-content: start;
+  align-items: flex-end;
+  background: url("./Screen\ Shot\ 2021-10-05\ at\ 4.59.00\ PM.png");
+  background-size: 500px 200px;
+  background-repeat: no-repeat;
 }
 
 .item4 {
-    grid-area: d;
-    border: solid rgb(108, 205, 238) 5px;
-    font-size: 20px;
-    justify-content: start;
-    align-items: flex-end;
-    background: url("https://i.stack.imgur.com/y9DpT.jpg");
-    background-size: 500px 200px;
-    background-repeat: no-repeat;
+  grid-area: d;
+  border: solid rgb(108, 205, 238) 5px;
+  font-size: 20px;
+  justify-content: start;
+  align-items: flex-end;
+  background: url("./images/homepage.png");
+  background-size: 500px 200px;
+  background-repeat: no-repeat;
 }
 
 .item5 {
-    grid-area: e;
-    border: solid rgb(108, 205, 238) 5px;
-    font-size: 20px;
-    justify-content: start;
-    align-items: flex-end;
-    background: url("https://i.stack.imgur.com/y9DpT.jpg");
-    background-size: 500px 200px;
-    background-repeat: no-repeat;
+  grid-area: e;
+  border: solid rgb(108, 205, 238) 5px;
+  font-size: 20px;
+  justify-content: start;
+  align-items: flex-end;
+  background: url("https://i.stack.imgur.com/y9DpT.jpg");
+  background-size: 500px 200px;
+  background-repeat: no-repeat;
 }
 
 .item-p {
-    background-color: rgb(108, 205, 238);
-    padding: 10px;
+  background-color: rgb(108, 205, 238);
+  padding: 10px;
 }
 
 .workh2 {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .hero {
-    display:flex;
-    justify-content: flex-end;
-    font-size: 30px;
-    background: url(./images/wooden-planks-background-horizontal-pattern-893271.jpg);
-    background-size: 1800px
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+  background: url(./images/wooden-planks-background-horizontal-pattern-893271.jpg);
+  background-size: 1800px;
 }
 
 .hero-p {
-    background-color: rgb(108, 205, 238);
-    padding:15px;
+  background-color: rgb(108, 205, 238);
+  padding: 15px;
 }
 
 .item1:hover::shadow {
-    color: rgb(216, 216, 155);
+  color: rgb(216, 216, 155);
 }
